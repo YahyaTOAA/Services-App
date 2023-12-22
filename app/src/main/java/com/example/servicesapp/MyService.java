@@ -13,7 +13,7 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        mp = MediaPlayer.create(this,R.raw.Journey);
+        mp = MediaPlayer.create(this,R.raw.journey);
     }
     @Override
     public IBinder onBind(Intent intent) {
